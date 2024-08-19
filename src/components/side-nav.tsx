@@ -30,7 +30,7 @@ export function SideNav() {
                             clsx(
                                 'xl:p-3 p-1 xl:w-full text-xs xl:text-sm rounded hover:text-green-700 flex-1 xl:flex-none bg-slate-50 h-full',
                                 {
-                                    'bg-green-50 text-green-700': pathname === i.href
+                                    'bg-green-100/40 text-green-700': pathname === i.href
                                 }
                             )}
                         >
